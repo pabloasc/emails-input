@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailsInput tests will fail every time 1`] = `
+<span
+  class="email-block"
+>
+  <span
+    id="email-text-container"
+  >
+    email@mail.ru
+  </span>
+  <span
+    id="email-remove"
+  >
+    <svg
+      height="8"
+      viewBox="0 0 8 8"
+      width="8"
+    >
+      <path
+        d="M8 0.8L7.2 0L4 3.2L0.8 0L0 0.8L3.2 4L0 7.2L0.8 8L4 4.8L7.2 8L8 7.2L4.8 4L8 0.8Z"
+        fill="#050038"
+      />
+    </svg>
+  </span>
+</span>
+`;

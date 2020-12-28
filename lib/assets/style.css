@@ -1,6 +1,6 @@
 .emails-container {
     border: 1px solid #C3C2CF;
-    background: #FFF;
+    background: #FFFFFF;
     max-height: 60px;
     overflow: auto;
 }
@@ -14,7 +14,7 @@
     outline: none;
 }
 
-.emails-container-button {
+.emails-container__button {
     background: #4262FF;
     border-radius: 6px;
     margin: 10px;
@@ -23,26 +23,26 @@
     color: #FFFFFF;
 }
 
-.email-block {
+.emails-container__email-block {
     background: rgba(102, 153, 255, 0.2);
     border-radius: 100px;
     padding: 0 5px;
     margin: 5px;
 }
 
-.email-block-invalid {
+.emails-container__email-block--invalid {
     border-radius: 100px;
     padding: 0 5px;
     margin: 5px;
-    text-decoration: underline;
+    border-bottom: 1px dashed #D92929;
 }
 
-.email-block #email-remove {
+.emails-container__email-block__email-remove {
     margin: 5px;
     cursor: pointer;
 }
 
-.email-block-invalid #email-remove {
+.emails-container__email-block__invalid__email-remove {
     margin: 5px;
     cursor: pointer;
 }

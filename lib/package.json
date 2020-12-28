@@ -1,0 +1,14 @@
+{
+  "name": "emails-input",
+  "version": "1.0.0",
+  "description": "Emails input component",
+  "main": "emails-input.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "pabloasc",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
