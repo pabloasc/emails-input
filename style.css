@@ -1,0 +1,16 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #F8F8F7;
+    color: #050038;
+}
+
+section {
+    margin: 100px
+}
+
+h4 {
+    font-size: 20px;
+}
+
