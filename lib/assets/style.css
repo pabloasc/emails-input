@@ -26,14 +26,15 @@
 .emails-container__email-block {
     background: rgba(102, 153, 255, 0.2);
     border-radius: 100px;
-    padding: 0 5px;
+    line-height: 2.5em;
+    padding: 5px;
     margin: 5px;
 }
 
 .emails-container__email-block--invalid {
-    border-radius: 100px;
-    padding: 0 5px;
     margin: 5px;
+    padding: 5px 0;
+    line-height: 2.5em;
     border-bottom: 1px dashed #D92929;
 }
 

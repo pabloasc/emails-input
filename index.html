@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,11 +23,17 @@
             </section> 
         </div>
         <script>
+            const shareBoard = function(emails) {
+                for (var i = 0; i < emails.length; i++) {
+                    alert('Sharing board to: ' + emails[i]);
+                }
+            }
+
             var inputContainerNode = document.querySelector('#emails-input');
-            var emailsInput = EmailsInput(inputContainerNode, { addRandomEmail: true, getEmailCount: true});
+            var emailsInput = EmailsInput(inputContainerNode, { addRandomEmail: true, getEmailCount: true, shareButton: shareBoard });
 
             var inputContainerNode2 = document.querySelector('#emails-input-2');
-            var emailsInput2 = EmailsInput(inputContainerNode2, { getEmailCount: true});
+            var emailsInput2 = EmailsInput(inputContainerNode2, { getEmailCount: true });
         </script>
     </body>
 </html>
