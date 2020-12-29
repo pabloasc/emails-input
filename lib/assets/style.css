@@ -1,7 +1,7 @@
 .emails-container {
     border: 1px solid #C3C2CF;
     background: #FFFFFF;
-    max-height: 60px;
+    height: 96px;
     overflow: auto;
 }
 
@@ -17,7 +17,7 @@
 .emails-container__button {
     background: #4262FF;
     border-radius: 6px;
-    margin: 10px;
+    margin: 24px 16px 0 0;
     padding: 10px;
     border: 0;
     color: #FFFFFF;

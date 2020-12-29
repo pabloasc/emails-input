@@ -10,7 +10,12 @@ section {
     margin: 100px
 }
 
-h4 {
+.section--title {
+    font-weight: 400;
     font-size: 20px;
+}
+
+.section--title strong{
+    font-weight: 700;
 }
 
